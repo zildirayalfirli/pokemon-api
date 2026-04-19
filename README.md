@@ -286,7 +286,7 @@ Content-Type: application/json
 - Docker Desktop (or Docker Engine) — version 27.5.1
 - Docker Compose — version v2.32.4-desktop.1
 - Git
-- - Python 3.11+
+- Python 3.11+
 
 ### Start Full Docker
 
