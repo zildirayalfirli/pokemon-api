@@ -1,0 +1,45 @@
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+*_config.json
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+
+# FastAPI / Uvicorn cache & logs
+*.log
+
+# Environment Variables
+.env
+
+# Pytest
+.coverage
+htmlcov/
+.pytest_cache/
+
+# VS Code settings
+.vscode/
+
+# IDE settings (PyCharm, IntelliJ, etc.)
+.idea/
+*.iml
+
+# MacOS Files
+.DS_Store
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# Temporary data
+tmp/
+temp/
+
+# Logs
+logs/
+*.log

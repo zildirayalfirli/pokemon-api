@@ -1,0 +1,65 @@
+{
+  "info": {
+    "_postman_id": "1850bcaf-5cda-4f98-8d41-899b9d16ed77",
+    "name": "pokemon-api",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "28253796",
+    "_collection_link": "https://go.postman.co/collection/28253796-1850bcaf-5cda-4f98-8d41-899b9d16ed77?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:4400/health",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "4400",
+          "path": [
+            "health"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Main Endpoint",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"raw_id\": \"7dsa8d7sa9dsk\",\n  \"user_id\": \"5199434\",\n  \"pokemon_ability_id\": \"150\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:4400/pokemon/ability",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "4400",
+          "path": [
+            "pokemon",
+            "ability"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
