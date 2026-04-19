@@ -97,6 +97,7 @@ pokemon-api/
 ├── Dockerfile                       # API container build
 ├── docker-compose.yml               # Multi-service orchestration
 ├── requirements.txt                 # Python dependencies
+├── pokemon-api.postman_collection.json
 └── README.md
 ```
 
@@ -522,6 +523,6 @@ curl -X POST http://localhost:4400/pokemon/ability \
 
 ### B. Postman Collection
 
-Postman collection JSON is exported and included as `pokemon-api.postman_collection.json`.
+The Postman collection has been exported and included in the repository as `pokemon-api.postman_collection.json`. Import this file into Postman to access pre-configured requests for all available endpoints.
 
 ---
